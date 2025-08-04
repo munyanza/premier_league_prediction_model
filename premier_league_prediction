@@ -64,24 +64,20 @@ Predicted Top 5 Teams:
 How to Run the Code
 Upload data to Google Colab:
 
-python
 from google.colab import files
 uploaded = files.upload()
 Install dependencies:
 
-bash
+
 pip install pandas scikit-learn numpy
 Run the Jupyter Notebook
 
 Possible Improvements
 Add more features: Injuries, player stats
 
-Try advanced models: XGBoost, LSTM
-
-Include live data APIs
 
 License & Attribution
-Data Source: Football-Data.co.uk (if applicable)
+Data Source: Football-Data.co.uk 
 
 Code: MIT License
 
